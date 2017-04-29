@@ -34,7 +34,7 @@ public class QueryDialogFragment extends android.app.DialogFragment {
         backBtn = (Button)view.findViewById(R.id.backBtn);
         setSpinner(spinner);
         setButton(backBtn);
-        
+
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         return builder.setTitle("カテゴリー選択")
                 .setView(view)

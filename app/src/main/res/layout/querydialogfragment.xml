@@ -16,13 +16,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="全件表示"
+            android:text="@string/allshow"
             android:id="@+id/show_all_button"
             android:onClick="showAll"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="戻る"
+            android:text="@string/back"
             android:id="@+id/backBtn"/>
 
     </LinearLayout>
